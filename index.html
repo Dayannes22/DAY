@@ -2,21 +2,38 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="site para curso proz" content=" recife, tecnologia, curso recife, mulheres na tecnologia">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content=" site para curso proz, recife, tecnologia, curso recife, mulheres na tecnologia">
         <title>My First Website</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1> Meu primeiro Site! </h1>
-        </header>
-        <main>
-            <p> entre em contato através do: </p>
-            <a href="https://github.com/Dayannes22"> Acesse aqui meu perfil do Github </a>
-        </main>
-    </body>
-    <script src="script.js">
+        
+<header>
+    <h1>Meu primeiro Site!</h1>
+</header>
+
+<main>
+    <p>Entre em contato através do:</p>
+    <a href="https://github.com/Dayannes22" target="_blank" rel="noopener noreferrer">
+        <button onclick="mostrarMensagem()">Clique Aqui</button>
+    </a>
     
-    </script>
-</html>
+            <div class="caixa">
+                <h2>Bem-vinda!!</h2>
+                <p>Esta é uma caixa de conteúdo.</p>
+            </div>
+        
+            <h2>Digite um Número:</h2>
+            <input type="number" id="numero" />
+            <button onclick="verificarNumero()">Verificar</button>
+            <div id="resultado"></div>
+        
+            <button onclick="executaFor()" id="saida">Executar Exercício de For</button>
+            <div id="saida"></div>
+            
+        </main>
+        
+        <script src="script.js"></script>
+        </body>
+        </html>
